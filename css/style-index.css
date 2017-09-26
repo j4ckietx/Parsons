@@ -1,0 +1,239 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Montserrat Subrayada', 'Montserrat', sans-serif;
+}
+
+div.gallery {
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 450px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+div.gallery:hover {
+    background-color: aliceblue;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding-top: 15px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+figure {
+    margin: 60px;
+    padding: 40px;
+}
+
+footer {
+    color: darkolivegreen;
+    letter-spacing: 1px;
+    text-align: right;
+    padding-right: 70px;
+}
+
+h1 a {
+    color: dimdgrey;
+    float: right;
+    letter-spacing: 7px;
+    margin-bottom: 0;
+    margin-right: 40px;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 a:active {
+    color:dimgrey;
+}
+
+h1 a:visited {
+    color:dimgrey;
+}
+
+h2 {
+    color: darkolivegreen;
+    float: right;
+    font-size: 21px;
+    font-weight: 300;
+    margin-right: 40px;
+    margin-top: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: orangered;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    padding-top: 80px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+h3.title {
+    color: orangered;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-left: 30px;
+    margin-top: 185px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    
+}
+
+h3.contact {
+    text-align: center;
+    margin-top: 300px;
+}
+
+h4 {
+    color: darkolivegreen;
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    text-align: right;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-right: 50px;
+    padding-top: 0;
+    text-transform: uppercase;
+}
+
+h4.list{
+    color: darkolivegreen;
+    position: absolute;
+    left: 230px;
+    text-align: left;
+    top: 670px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+img {
+    box-shadow: 0 50px 50px 0 rgba(200, 200, 200, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    height: 576px;
+    margin: auto;
+    width: 1024px;
+}
+
+img.blog-pic {
+    position: relative;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+}
+
+img.profile {
+    position: absolute;
+    height: 400px;
+    right: 200px;
+    top: 300px;
+    width: 400px;
+}
+
+img.shots {
+    position: fixed;
+    top: 130px;
+    height: 400px;
+    margin-left: 200px;
+    width: 400px;
+}
+
+li a {
+    color: #ea574c;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*need border-bottom to match the text width*/
+
+li a:hover {
+    color: darkolivegreen;
+    border-bottom: 2px solid;
+    padding-bottom: 8px;
+}
+
+p.article {
+    color: dimgrey;
+    position: relative;
+    float: right;
+    top: 50px;
+    right: 50px;
+    width: 50%;
+    text-align: right;
+    margin-right: 50px;
+    line-height: 30px;
+}
+
+p.intro {
+    color: dimgrey;
+    position: absolute;
+    text-align: right;
+    top: 400px;
+    left: 200px;
+    width: 40%;
+    margin-right: 50px;
+    line-height: 30px;
+}
+
+p.list{
+    color: darkolivegreen;
+    position: absolute;
+    left: 230px;
+    text-align: left;
+    top: 720px;
+    line-height: 35px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+p.project-desc {
+    color: dimgrey;
+    position: fixed;
+    top: 190px;
+    right: 50px;
+    width: 40%;
+    text-align: right;
+    margin-right: 50px;
+    line-height: 30px;
+}
+
+
+/*drop down for gallery and about */
+
+ul {
+    background-color: whitesmoke;
+    letter-spacing: 3px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding-right: 40px;
+    text-transform: uppercase;
+}
