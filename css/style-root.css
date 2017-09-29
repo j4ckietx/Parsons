@@ -1,0 +1,137 @@
+body {
+    background-color: white;
+    font-family: 'Avenir', sans-serif;
+}
+
+.dot {
+    left: 8%;
+    position: absolute;
+    top: -1%;
+}
+
+.dot2 {
+    position: absolute;
+    right: -0.8%;
+    top: 80%;
+}
+
+.dot3 {
+    left: 25%;
+    position: absolute;
+    top: 52.5%;
+    z-index: -1;
+}
+
+.dot4 {
+    right: 28%;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 31%;
+    z-index: -1;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+}
+
+.left { 
+    color: #333333;
+    font-size: 21px;
+    left: -6.6%;
+    letter-spacing: 4px;
+    position:absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 45%;
+    transform: rotate(-90deg);
+}
+
+.nav-links {
+    color: #606060;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-decoration: none;
+} 
+
+.rectangle {
+    background-color: #ffc9ae;
+    height: 90%;
+    left: 3%;
+    position: absolute;
+    top: 5%;
+    width: 94%;
+    z-index: -1;
+}
+
+.top { 
+    color: #333333;
+    font-size: 21px;
+    left: 45%;
+    letter-spacing: 4px;
+    position:absolute;
+    text-transform: uppercase;
+    top: 0;
+}
+
+.right { 
+    color: #333333;
+    font-size: 21px;
+    letter-spacing: 4px;
+    position:absolute;
+    right: -6%;
+    text-align: center;
+    text-transform: uppercase;
+    top: 45%;
+    transform: rotate(90deg);
+}
+
+span {
+    color: #333333;
+    border-top: 5px solid white;
+    padding-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.week1 {
+    top: 40%;
+    left: 15%;
+    position: absolute;
+}
+
+.week2 {
+    top: 40%;
+    left: 35%;
+    position: absolute;
+}
+
+.week3 {
+    top: 40%;
+    left: 55%;
+    position: absolute;
+}
+
+.week4 {
+    top: 40%;
+    left: 75%;
+    position: absolute;
+}
+
+.wireframe {
+    color: #606060;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 50px;
+    position: absolute;
+    right: 7%;
+    text-align: right;
+    text-decoration: none;
+    top: 10%;
+}
