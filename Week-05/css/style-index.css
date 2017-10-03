@@ -1,0 +1,254 @@
+body {
+    background-color: whitesmoke;
+    font-family:'Avenir', sans-serif;
+}
+
+.gallery {
+    float: left;
+    margin:80px 20px 100px 20px;
+    padding: 30px;
+    width: 450px;
+}
+
+div.gallery:hover {
+    background-color: aliceblue;
+}
+
+div.gallery img {
+    height: auto;
+    width: 100%;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 15px;
+    text-align: right;
+}
+
+footer {
+    color: dimgray;
+    letter-spacing: 1px;
+    padding-right: 70px;
+    text-align: right;
+}
+
+h1 a {
+    color: dimgray;
+    float: right;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    padding-top: 40px;
+    margin-right: 40px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1 a:active {
+    color:dimgrey;
+}
+
+h1 a:visited {
+    color:dimgrey;
+}
+
+.copy-title {
+    position: absolute;
+    color: white;
+    font-size: 120px;
+    left: 220px;
+    top: 80px;
+    z-index: 1;
+}
+
+.copy {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    left: 230px;
+    letter-spacing: 2px;
+    top: 480px;
+    z-index: 1;
+}
+
+h2 {
+    color: lightblue;
+    float: right;
+    font-size: 21px;
+    font-weight: 300;
+    margin-right: 40px;
+    margin-top: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: orangered;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    padding-top: 80px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.title {
+    color: orangered;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-left: 30px;
+    margin-top: 185px;
+    text-align: left;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    
+}
+
+.contact {
+    margin-top: 300px;
+    text-align: center;
+}
+
+h4 {
+    color: lightblue;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-right: 50px;
+    padding-top: 0;
+    position: fixed;
+    right: 50px;
+    text-align: right;
+    text-transform: uppercase;
+    top: 100px;
+}
+
+.list{
+    color: lightblue;
+    font-size: 14px;
+    font-weight: 400;
+    left: 230px;
+    letter-spacing: 4px;
+    position: absolute;
+    text-align: left;
+    top: 670px;
+}
+
+.landing-image {
+    box-shadow: 0 50px 50px 0 rgba(200, 200, 200, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    width: 1366px;
+    height: 768px;
+    position: relative;
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-bottom: 0;
+}
+
+.blog-pic {
+    height: 400px;
+    margin-left: 50px;
+    position: relative;
+    width: 400px;
+}
+
+.profile {
+    height: 400px;
+    position: absolute;
+    right: 200px;
+    top: 300px;
+    width: 400px;
+}
+
+.shots {
+    height: 400px;
+    margin-left: 200px;
+    position: fixed;
+    top: 130px;
+    width: 400px;
+}
+
+li a {
+    color: #ea574c;
+    display: block;
+    float: left;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*need border-bottom to match the text width*/
+
+li a:hover {
+    background-color: #ea574c;
+    color: whitesmoke;
+}
+
+.article {
+    color: dimgrey;
+    float: right;
+    line-height: 30px;
+    margin-right: 50px;
+    position: relative;
+    right: 50px;
+    text-align: right;
+    top: 50px;
+    width: 50%;
+}
+
+.intro {
+    color: dimgrey;
+    left: 200px;
+    line-height: 30px;
+    margin-right: 50px;
+    position: absolute;
+    text-align: right;
+    top: 400px;
+    width: 40%;
+}
+
+p.list {
+    color: lightblue;
+    font-size: 18px;
+    font-weight: 600;
+    left: 230px;
+    letter-spacing: 4px;
+    line-height: 35px;
+    position: absolute;
+    text-align: left;
+    text-transform: uppercase;
+    top: 720px;
+}
+
+.project-desc {
+    color: dimgrey;
+    line-height: 30px;
+    margin-right: 50px;
+    position: fixed;
+    right: 50px;
+    text-align: right;
+    top: 190px;
+    width: 40%;
+}
+
+
+/*drop down for gallery and about */
+
+ul {
+    background-color: whitesmoke;
+    letter-spacing: 3px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding-right: 40px;
+    text-transform: uppercase;
+}

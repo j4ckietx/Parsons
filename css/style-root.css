@@ -36,7 +36,7 @@ footer {
     right: 3%;
 }
 
-.left { 
+.left {
     color: #333333;
     font-size: 21px;
     left: -6.6%;
@@ -55,7 +55,7 @@ footer {
     letter-spacing: 1px;
     line-height: 50px;
     text-decoration: none;
-} 
+}
 
 .rectangle {
     background-color: #ffc9ae;
@@ -67,7 +67,7 @@ footer {
     z-index: -1;
 }
 
-.top { 
+.top {
     color: #333333;
     font-size: 21px;
     left: 45%;
@@ -77,7 +77,7 @@ footer {
     top: 0;
 }
 
-.right { 
+.right {
     color: #333333;
     font-size: 21px;
     letter-spacing: 4px;
@@ -107,17 +107,23 @@ ul {
 
 .week2 {
     top: 40%;
-    left: 35%;
+    left: 30%;
     position: absolute;
 }
 
 .week3 {
     top: 40%;
-    left: 55%;
+    left: 45%;
     position: absolute;
 }
 
 .week4 {
+    top: 40%;
+    left: 60%;
+    position: absolute;
+}
+
+.week5 {
     top: 40%;
     left: 75%;
     position: absolute;
