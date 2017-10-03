@@ -1,11 +1,11 @@
 body {
     background-color: whitesmoke;
-    font-family:'Avenir', sans-serif;
+    font-family: 'Avenir', sans-serif;
 }
 
 .gallery {
     float: left;
-    margin:80px 20px 100px 20px;
+    margin: 80px 20px 100px 20px;
     padding: 30px;
     width: 450px;
 }
@@ -39,7 +39,7 @@ h1 a {
     font-family: 'Libre Barcode 39 Text', cursive;
     font-weight: 400;
     font-size: 50px;
-    padding-top: 40px;
+    padding-top: 20px;
     margin-right: 40px;
     text-align: left;
     text-decoration: none;
@@ -47,11 +47,11 @@ h1 a {
 }
 
 h1 a:active {
-    color:dimgrey;
+    color: dimgrey;
 }
 
 h1 a:visited {
-    color:dimgrey;
+    color: dimgrey;
 }
 
 .copy-title {
@@ -108,7 +108,6 @@ h3 {
     text-transform: uppercase;
     transform: rotate(-90deg);
     transform-origin: left;
-    
 }
 
 .contact {
@@ -130,7 +129,7 @@ h4 {
     top: 100px;
 }
 
-.list{
+.list {
     color: lightblue;
     font-size: 14px;
     font-weight: 400;
@@ -146,9 +145,7 @@ h4 {
     width: 1366px;
     height: 768px;
     position: relative;
-    margin-top: 2%;
     margin-left: 7%;
-    margin-bottom: 0;
 }
 
 .blog-pic {
@@ -179,7 +176,8 @@ li a {
     display: block;
     float: left;
     font-weight: 600;
-    margin-top: 30px;
+    font-size: 20px;
+    margin-top: 15px;
     padding: 14px;
     text-align: center;
     text-decoration: none;
@@ -251,4 +249,43 @@ ul {
     overflow: hidden;
     padding-right: 40px;
     text-transform: uppercase;
+}
+
+.fa {
+    background-color: #ea574c;
+    color: whitesmoke;
+    padding: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 15px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    transform: scale(1.2);
+}
+
+.fa-dribbble {
+    position: absolute;
+    right: 40px;
+    bottom: 240px;
+}
+
+.fa-github {
+    position: absolute;
+    right: 40px;
+    bottom: 170px;
+}
+
+.fa-linkedin {
+    position: absolute;
+    right: 40px;
+    bottom: 100px;
+}
+
+.fa-instagram {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
 }
