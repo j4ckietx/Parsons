@@ -30,7 +30,7 @@ footer {
     color: dimgray;
     letter-spacing: 1px;
     padding-right: 70px;
-    text-align: right;
+    text-align: center;
 }
 
 h1 a {
@@ -39,8 +39,8 @@ h1 a {
     font-family: 'Libre Barcode 39 Text', cursive;
     font-weight: 400;
     font-size: 50px;
-    padding-top: 20px;
-    margin-right: 40px;
+    padding-top: 45px;
+    margin-right: 50px;
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
@@ -57,9 +57,9 @@ h1 a:visited {
 .copy-title {
     position: absolute;
     color: white;
-    font-size: 120px;
-    left: 220px;
-    top: 80px;
+    font-size: 110px;
+    left: 270px;
+    top: 110px;
     z-index: 1;
 }
 
@@ -68,7 +68,7 @@ h1 a:visited {
     color: white;
     font-size: 30px;
     font-weight: 400;
-    left: 230px;
+    left: 280px;
     letter-spacing: 2px;
     top: 480px;
     z-index: 1;
@@ -142,10 +142,9 @@ h4 {
 
 .landing-image {
     box-shadow: 0 50px 50px 0 rgba(200, 200, 200, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-    width: 1366px;
-    height: 768px;
     position: relative;
-    margin-left: 7%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 .blog-pic {
@@ -177,7 +176,7 @@ li a {
     float: left;
     font-weight: 600;
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 30px;
     padding: 14px;
     text-align: center;
     text-decoration: none;
@@ -268,24 +267,24 @@ ul {
 
 .fa-dribbble {
     position: absolute;
-    right: 40px;
-    bottom: 240px;
+    right: 50px;
+    bottom: 270px;
 }
 
 .fa-github {
     position: absolute;
-    right: 40px;
-    bottom: 170px;
+    right: 50px;
+    bottom: 200px;
 }
 
 .fa-linkedin {
     position: absolute;
-    right: 40px;
-    bottom: 100px;
+    right: 50px;
+    bottom: 130px;
 }
 
 .fa-instagram {
     position: absolute;
-    right: 40px;
-    bottom: 30px;
+    right: 50px;
+    bottom: 60px;
 }
