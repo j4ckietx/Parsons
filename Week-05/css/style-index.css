@@ -266,7 +266,7 @@ li a:hover {
     position: absolute;
     text-align: left;
     text-transform: uppercase;
-    top: 760px;
+    top: 83%;
 }
 
 .project-desc {
@@ -340,9 +340,7 @@ ul {
 
 
 footer {
-    position: static;
-    bottom: 5px;
+    position: absolute;
     color: dimgray;
     letter-spacing: 1px;
-    text-align: center;
 }
