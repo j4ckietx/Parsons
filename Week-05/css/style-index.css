@@ -3,34 +3,32 @@ body {
     font-family: 'Avenir', sans-serif;
 }
 
-.gallery {
+.gallery-row {
+    margin: 2.5%;
+}
+
+.gallery-column {
     float: left;
-    margin: 80px 20px 100px 20px;
-    width: 450px;
+    width: 32%;
+    padding: 10px;
 }
 
-div.gallery:hover {
-    background-color: aliceblue;
+.gallery-row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-div.gallery img {
-    height: auto;
-    width: 100%;
+.content {
+    background-color: white;
+    padding: 20px;
 }
 
-.desc {
-    font-size: 14px;
-    font-weight: 300;
-    padding-top: 15px;
+p { 
+    margin-top: 30px;
+    width: 75%;
+    float:right;
     text-align: right;
-}
-
-footer {
-    position: static;
-    bottom: 5px;
-    color: dimgray;
-    letter-spacing: 1px;
-    text-align: center;
 }
 
 h1 a {
@@ -156,17 +154,17 @@ h3 {
 }
 
 h4 {
-    color: #c7e3e5;
+    background-color: #ea574c;
+    color: whitesmoke;
     font-size: 21px;
     font-weight: 500;
     letter-spacing: 2px;
-    margin-right: 50px;
-    padding-top: 0;
-    position: fixed;
-    right: 50px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    right: 100px;
     text-align: right;
     text-transform: uppercase;
-    top: 100px;
+    top: 20%;
 }
 
 .list {
@@ -275,10 +273,10 @@ li a:hover {
     color: dimgrey;
     line-height: 30px;
     margin-right: 50px;
-    position: fixed;
+    position: absolute;
     right: 50px;
     text-align: right;
-    top: 190px;
+    top: 35%;
     width: 40%;
 }
 
@@ -332,4 +330,19 @@ ul {
     position: absolute;
     right: 50px;
     bottom: 60px;
+}
+
+.canvas {
+    padding: 50px;
+    position: absolute;
+    margin-left: 10%;
+}
+
+
+footer {
+    position: static;
+    bottom: 5px;
+    color: dimgray;
+    letter-spacing: 1px;
+    text-align: center;
 }
