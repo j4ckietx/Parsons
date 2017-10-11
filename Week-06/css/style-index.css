@@ -1,8 +1,22 @@
+/*class names:
+    nav-links
+    logo
+    space
+    homep-content
+    landing
+    landing-image
+    greeting
+    social
+    fa/ fa- 
+    gallery
+    page-title*/
+
 body {
     background-color: whitesmoke;
     font-family: 'Avenir', sans-serif;
 }
 
+/*header*/
 header {
     height: 100px;
     margin: 10px 0;
@@ -42,7 +56,8 @@ nav {
     margin: 30px 50px;
 }
 
-section {
+/*homepage content*/
+.home-content {
     height: 650px;
     margin-bottom: 30px;
     width: 100%;
@@ -54,7 +69,7 @@ section {
     width: 12.5%;
 }
 
-figure {
+.landing {
     box-shadow: 0 50px 50px 0 rgba(200, 200, 200, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     float: left;
     height: 100%;
@@ -78,6 +93,20 @@ figure {
     width: 75%;
 }
 
+.gallery {
+    height: 2000px;
+    width: 100%;
+}
+
+/*gallery content*/
+.page-title {
+    float: left;
+    height: 100%;
+    width: 58px;
+    margin: 50px;
+}
+
+/*social icons*/
 .social {
     float: right;
     height: 100%;
@@ -122,6 +151,7 @@ figure {
     bottom: 100px;
 }
 
+/*footer*/
 footer {
     color: dimgray;
     height: 50px;
