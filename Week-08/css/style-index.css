@@ -1,0 +1,189 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Avenir', sans-serif;
+    width: 100%;
+}
+
+
+/*header*/
+
+header {
+    height: 100px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+nav {
+    margin-left: 30px;
+    position: fixed;
+}
+
+.nav-links {
+    color: #ea574c;
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-links:hover {
+    background-color: #ea574c;
+    color: whitesmoke;
+}
+
+.logo {
+    color: powderblue;
+    float: right;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 30px 50px;
+}
+
+
+/*homepage content*/
+
+.home-content {
+    height: 650px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.space {
+    float: left;
+    height: 100%;
+    width: 12.5%;
+}
+
+.landing {
+    box-shadow: 0 50px 50px 0 rgba(200, 200, 200, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    float: left;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    width: 75%;
+}
+
+.landing-image {
+    margin-top: -50px;
+}
+
+.greeting {
+    color: whitesmoke;
+    float: left;
+    font-size: 81px;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 75%;
+}
+
+.portfolio {
+    height: 2000px;
+    width: 100%;
+}
+
+
+/*gallery content*/
+
+.page-title {
+    float: left;
+    height: 100%;
+    width: auto;
+    margin: 50px 0 30px 50px;
+}
+
+h3 {
+    color: #ea574c;
+    margin: 50px 0 50px 50px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.threed {
+    float: left;
+    height: 30%;
+    width: 90%;
+    margin: 0;
+}
+
+.twod {
+    float: left;
+    height: 30%;
+    width: 90%;
+    margin: 0;
+}
+
+
+/*gallery*/
+
+
+
+/*social icons*/
+
+.social {
+    float: right;
+    height: 100%;
+    width: 12.5%;
+}
+
+.fa {
+    background-color: #ea574c;
+    color: whitesmoke;
+    padding: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    transform: scale(1.2);
+}
+
+.fa-dribbble {
+    position: absolute;
+    right: 4.5%;
+    bottom: 310px;
+}
+
+.fa-github {
+    position: absolute;
+    right: 4.5%;
+    bottom: 240px;
+}
+
+.fa-linkedin {
+    position: absolute;
+    right: 4.5%;
+    bottom: 170px;
+}
+
+.fa-instagram {
+    position: absolute;
+    right: 4.5%;
+    bottom: 100px;
+}
+
+
+/*footer*/
+
+footer {
+    color: dimgray;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.copy {
+    margin: 0;
+    padding: 15px 0;
+}

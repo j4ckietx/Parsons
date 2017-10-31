@@ -100,50 +100,64 @@ ul {
 }
 
 .week1 {
-    top: 25%;
-    left: 20%;
+    top: 35%;
+    left: 10%;
     position: absolute;
 }
 
 .week2 {
-    top: 25%;
-    left: 40%;
+    top: 35%;
+    left: 25%;
     position: absolute;
 }
 
 .week3 {
-    top: 25%;
-    left: 60%;
+    top: 35%;
+    left: 40%;
     position: absolute;
 }
 
 .week4 {
-    top: 55%;
-    left: 30%;
+    top: 65%;
+    left: 10%;
     position: absolute;
 }
 
 .week5 {
-    top: 55%;
-    left: 50%;
+    top: 65%;
+    left: 25%;
     position: absolute;
 }
 
 .week6 {
-    top: 55%;
-    left: 70%;
+    top: 65%;
+    left: 40%;
+    position: absolute;
+}
+
+.week8 {
+    text-align: right;
+    top: 25%;
+    right: 30%;
+    position: absolute;
+}
+
+.week9 {
+    text-align: right;
+    top: 25%;
+    right: 10%;
     position: absolute;
 }
 
 .wireframe {
     color: #606060;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 50px;
     position: absolute;
-    right: 7%;
-    text-align: right;
+    right: 41%;
+    text-align: center;
     text-decoration: none;
-    top: 10%;
+    top: 8%;
 }
