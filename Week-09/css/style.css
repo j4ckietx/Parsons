@@ -17,7 +17,7 @@ header {
 }
 
 footer {
-    height: 50px;
+    height: 100px;
     width: 100%;
 }
 
@@ -70,5 +70,5 @@ figure {
     text-align: center;
     color: dimgray;
     margin: 0;
-    padding: 15px 0;
+    padding: 40px 0;
 }
