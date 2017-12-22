@@ -116,6 +116,11 @@ h3 {
     letter-spacing: 2px;
 }
 
+h4 {
+    margin: 50px 0 50px 150px;
+    font-size: 21px;
+}
+
 .intro {
   width: 70%;
   margin-left: 150px;
@@ -127,6 +132,12 @@ h3 {
 
 .plist {
   margin-left: 150px;
+}
+
+.canvas {
+  width: 500px;
+  margin-left: 20%;
+  display: block;
 }
 
 .threed {
